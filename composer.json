@@ -1,0 +1,29 @@
+{
+    "name": "ckryo/laravel_swoole",
+    "description": "laravel with swoole server",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "swoole"],
+    "support": {
+        "issues": "https://github.com/ckryo/laravel_swoole/issues",
+        "source": "https://github.com/ckryo/laravel_swoole"
+    },
+    "authors": [
+        {
+            "name": "ckryo",
+            "email": "ckryo@qq.com"
+        }
+    ],
+    "require": {
+        "ext-swoole": ">=1.8.1",
+        "laravel/framework": ">=5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ckryo\\Laravel\\Swoole\\": "src"
+        }
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
+}
